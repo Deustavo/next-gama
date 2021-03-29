@@ -18,8 +18,8 @@ export default function Categories( { courses }: AllCourses ){
 
     return(
         <Container>
-            <Image src="/img/logo.png" height={80} width={200}/>
-            <h1>{route.query.slug}</h1>
+            <Image src="/img/riot.jpg" height={105} width={200}/>
+            <h1 style={{ marginBottom: 40}}>{route.query.slug}</h1>
             <div>
                 <ul>
                     { courses.map( course => (

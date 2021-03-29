@@ -13,9 +13,9 @@ export default function HeaderComponent({ categories }: AllCategories) {
             <div>
 
                 <Image
-                    src="/img/logo.png"
+                    src="/img/riot.jpg"
                     width={200}
-                    height={80}
+                    height={105}
                 />
 
                 <main>

@@ -24,9 +24,9 @@ export default function Home() {
       <Seo title="Fala galera" description="Seja bem vindo e blá" />
       <HeaderComponent />
       <Container>
-        <Image src="/img/logo.png" height={80} width={200}/>
-        <h1>Hello NextJS</h1>
-        <button onClick={ handleOpenModal }> { isShow ? 'Fechar modal' : 'Abrir modal'} </button>
+        <Image src="/img/riot.jpg" height={210} width={400}/>
+        <h1 style={{ marginBottom: 40}}>Riot Games</h1>
+        <button style={{ backgroundColor: '#f1f1f1', border: 'none', padding: 12, borderRadius: 8}} onClick={ handleOpenModal }> { isShow ? 'Desver' : 'Ver imagens fortes'} </button>
 
         <div>
           { isShow && <ModalContent />}
