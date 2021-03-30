@@ -6,8 +6,7 @@ import { AllCategories } from '../interfaces'
 import { GetStaticProps } from 'next';
 import api from '../service/api';
 
-export default function HeaderComponent({ categories }: AllCategories) {
-    console.log(categories)
+export default function HeaderComponent() {
     return (
         <header>
             <div>
